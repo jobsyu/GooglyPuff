@@ -9,12 +9,35 @@
 /* Begin PBXBuildFile section */
 		860982E11CB13B0700D35DA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 860982E01CB13B0700D35DA5 /* main.m */; };
 		860982E41CB13B0700D35DA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 860982E31CB13B0700D35DA5 /* AppDelegate.m */; };
-		860982E71CB13B0700D35DA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 860982E61CB13B0700D35DA5 /* ViewController.m */; };
 		860982EA1CB13B0700D35DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860982E81CB13B0700D35DA5 /* Main.storyboard */; };
 		860982EC1CB13B0700D35DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860982EB1CB13B0700D35DA5 /* Assets.xcassets */; };
 		860982EF1CB13B0700D35DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860982ED1CB13B0700D35DA5 /* LaunchScreen.storyboard */; };
 		860982FA1CB13B0700D35DA5 /* GooglyPuffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 860982F91CB13B0700D35DA5 /* GooglyPuffTests.m */; };
 		860983051CB13B0700D35DA5 /* GooglyPuffUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 860983041CB13B0700D35DA5 /* GooglyPuffUITests.m */; };
+		860983181CB13BA400D35DA5 /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 860983151CB13BA400D35DA5 /* PhotoManager.m */; };
+		860983191CB13BA400D35DA5 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 860983171CB13BA400D35DA5 /* Photo.m */; };
+		8609831E1CB13BCA00D35DA5 /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8609831B1CB13BCA00D35DA5 /* PhotoCollectionViewController.m */; };
+		8609831F1CB13BCA00D35DA5 /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8609831D1CB13BCA00D35DA5 /* PhotoDetailViewController.m */; };
+		860983281CB13C6B00D35DA5 /* photoDownloadError.png in Resources */ = {isa = PBXBuildFile; fileRef = 860983201CB13C6B00D35DA5 /* photoDownloadError.png */; };
+		860983291CB13C6B00D35DA5 /* photoDownloading.png in Resources */ = {isa = PBXBuildFile; fileRef = 860983211CB13C6B00D35DA5 /* photoDownloading.png */; };
+		8609832A1CB13C6B00D35DA5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 860983221CB13C6B00D35DA5 /* background.png */; };
+		8609832B1CB13C6B00D35DA5 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 860983231CB13C6B00D35DA5 /* background@2x.png */; };
+		8609832C1CB13C6B00D35DA5 /* background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 860983241CB13C6B00D35DA5 /* background@2x~ipad.png */; };
+		8609832D1CB13C6B00D35DA5 /* background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 860983251CB13C6B00D35DA5 /* background~ipad.png */; };
+		8609832E1CB13C6B00D35DA5 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 860983271CB13C6B00D35DA5 /* Utils.m */; };
+		860983361CB13CAA00D35DA5 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 860983301CB13CAA00D35DA5 /* UIImage+Alpha.m */; };
+		860983371CB13CAA00D35DA5 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 860983321CB13CAA00D35DA5 /* UIImage+Resize.m */; };
+		860983381CB13CAA00D35DA5 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 860983341CB13CAA00D35DA5 /* UIImage+RoundedCorner.m */; };
+		8609834C1CB13CB900D35DA5 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8609833A1CB13CB900D35DA5 /* ELCAlbumPickerController.m */; };
+		8609834D1CB13CB900D35DA5 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8609833C1CB13CB900D35DA5 /* ELCAsset.m */; };
+		8609834E1CB13CB900D35DA5 /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8609833E1CB13CB900D35DA5 /* ELCAssetCell.m */; };
+		8609834F1CB13CB900D35DA5 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 860983421CB13CB900D35DA5 /* ELCAssetTablePicker.m */; };
+		860983501CB13CB900D35DA5 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 860983441CB13CB900D35DA5 /* ELCImagePickerController.m */; };
+		860983511CB13CB900D35DA5 /* ELCAlbumPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860983451CB13CB900D35DA5 /* ELCAlbumPickerController.xib */; };
+		860983521CB13CB900D35DA5 /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860983461CB13CB900D35DA5 /* ELCAssetPicker.xib */; };
+		860983531CB13CB900D35DA5 /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 860983471CB13CB900D35DA5 /* ELCAssetTablePicker.xib */; };
+		860983541CB13CB900D35DA5 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 860983481CB13CB900D35DA5 /* Overlay.png */; };
+		860983551CB13CB900D35DA5 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 860983491CB13CB900D35DA5 /* Overlay@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +62,6 @@
 		860982E01CB13B0700D35DA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		860982E21CB13B0700D35DA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		860982E31CB13B0700D35DA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		860982E51CB13B0700D35DA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		860982E61CB13B0700D35DA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		860982E91CB13B0700D35DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		860982EB1CB13B0700D35DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		860982EE1CB13B0700D35DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,46 @@
 		860983001CB13B0700D35DA5 /* GooglyPuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglyPuffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		860983041CB13B0700D35DA5 /* GooglyPuffUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooglyPuffUITests.m; sourceTree = "<group>"; };
 		860983061CB13B0700D35DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860983141CB13BA400D35DA5 /* PhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoManager.h; sourceTree = "<group>"; };
+		860983151CB13BA400D35DA5 /* PhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoManager.m; sourceTree = "<group>"; };
+		860983161CB13BA400D35DA5 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		860983171CB13BA400D35DA5 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		8609831A1CB13BCA00D35DA5 /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewController.h; sourceTree = "<group>"; };
+		8609831B1CB13BCA00D35DA5 /* PhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewController.m; sourceTree = "<group>"; };
+		8609831C1CB13BCA00D35DA5 /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		8609831D1CB13BCA00D35DA5 /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
+		860983201CB13C6B00D35DA5 /* photoDownloadError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoDownloadError.png; sourceTree = "<group>"; };
+		860983211CB13C6B00D35DA5 /* photoDownloading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoDownloading.png; sourceTree = "<group>"; };
+		860983221CB13C6B00D35DA5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		860983231CB13C6B00D35DA5 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		860983241CB13C6B00D35DA5 /* background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x~ipad.png"; sourceTree = "<group>"; };
+		860983251CB13C6B00D35DA5 /* background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background~ipad.png"; sourceTree = "<group>"; };
+		860983261CB13C6B00D35DA5 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		860983271CB13C6B00D35DA5 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		8609832F1CB13CAA00D35DA5 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		860983301CB13CAA00D35DA5 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		860983311CB13CAA00D35DA5 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		860983321CB13CAA00D35DA5 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		860983331CB13CAA00D35DA5 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		860983341CB13CAA00D35DA5 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		860983391CB13CB900D35DA5 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		8609833A1CB13CB900D35DA5 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		8609833B1CB13CB900D35DA5 /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		8609833C1CB13CB900D35DA5 /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		8609833D1CB13CB900D35DA5 /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCell.h; sourceTree = "<group>"; };
+		8609833E1CB13CB900D35DA5 /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCell.m; sourceTree = "<group>"; };
+		8609833F1CB13CB900D35DA5 /* ELCAssetPickerFilterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetPickerFilterDelegate.h; sourceTree = "<group>"; };
+		860983401CB13CB900D35DA5 /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetSelectionDelegate.h; sourceTree = "<group>"; };
+		860983411CB13CB900D35DA5 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		860983421CB13CB900D35DA5 /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		860983431CB13CB900D35DA5 /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerController.h; sourceTree = "<group>"; };
+		860983441CB13CB900D35DA5 /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
+		860983451CB13CB900D35DA5 /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAlbumPickerController.xib; sourceTree = "<group>"; };
+		860983461CB13CB900D35DA5 /* ELCAssetPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetPicker.xib; sourceTree = "<group>"; };
+		860983471CB13CB900D35DA5 /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		860983481CB13CB900D35DA5 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		860983491CB13CB900D35DA5 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+		860983561CB13D2C00D35DA5 /* GooglyPuff-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GooglyPuff-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +164,13 @@
 			children = (
 				860982E21CB13B0700D35DA5 /* AppDelegate.h */,
 				860982E31CB13B0700D35DA5 /* AppDelegate.m */,
-				860982E51CB13B0700D35DA5 /* ViewController.h */,
-				860982E61CB13B0700D35DA5 /* ViewController.m */,
-				860982E81CB13B0700D35DA5 /* Main.storyboard */,
+				8609831A1CB13BCA00D35DA5 /* PhotoCollectionViewController.h */,
+				8609831B1CB13BCA00D35DA5 /* PhotoCollectionViewController.m */,
+				8609831C1CB13BCA00D35DA5 /* PhotoDetailViewController.h */,
+				8609831D1CB13BCA00D35DA5 /* PhotoDetailViewController.m */,
+				860983121CB13B1500D35DA5 /* Photo Management */,
+				860983131CB13B4600D35DA5 /* Storyboards */,
 				860982EB1CB13B0700D35DA5 /* Assets.xcassets */,
-				860982ED1CB13B0700D35DA5 /* LaunchScreen.storyboard */,
-				860982F01CB13B0700D35DA5 /* Info.plist */,
 				860982DF1CB13B0700D35DA5 /* Supporting Files */,
 			);
 			path = GooglyPuff;
@@ -117,7 +179,19 @@
 		860982DF1CB13B0700D35DA5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				860983201CB13C6B00D35DA5 /* photoDownloadError.png */,
+				860983211CB13C6B00D35DA5 /* photoDownloading.png */,
+				860983221CB13C6B00D35DA5 /* background.png */,
+				860983231CB13C6B00D35DA5 /* background@2x.png */,
+				860983241CB13C6B00D35DA5 /* background@2x~ipad.png */,
+				860983251CB13C6B00D35DA5 /* background~ipad.png */,
+				8609834B1CB13CB900D35DA5 /* ELCImagePicker */,
+				860983351CB13CAA00D35DA5 /* UIImage Categories */,
+				860983261CB13C6B00D35DA5 /* Utils.h */,
+				860983271CB13C6B00D35DA5 /* Utils.m */,
+				860982F01CB13B0700D35DA5 /* Info.plist */,
 				860982E01CB13B0700D35DA5 /* main.m */,
+				860983561CB13D2C00D35DA5 /* GooglyPuff-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +212,73 @@
 				860983061CB13B0700D35DA5 /* Info.plist */,
 			);
 			path = GooglyPuffUITests;
+			sourceTree = "<group>";
+		};
+		860983121CB13B1500D35DA5 /* Photo Management */ = {
+			isa = PBXGroup;
+			children = (
+				860983141CB13BA400D35DA5 /* PhotoManager.h */,
+				860983151CB13BA400D35DA5 /* PhotoManager.m */,
+				860983161CB13BA400D35DA5 /* Photo.h */,
+				860983171CB13BA400D35DA5 /* Photo.m */,
+			);
+			name = "Photo Management";
+			sourceTree = "<group>";
+		};
+		860983131CB13B4600D35DA5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				860982E81CB13B0700D35DA5 /* Main.storyboard */,
+				860982ED1CB13B0700D35DA5 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		860983351CB13CAA00D35DA5 /* UIImage Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8609832F1CB13CAA00D35DA5 /* UIImage+Alpha.h */,
+				860983301CB13CAA00D35DA5 /* UIImage+Alpha.m */,
+				860983311CB13CAA00D35DA5 /* UIImage+Resize.h */,
+				860983321CB13CAA00D35DA5 /* UIImage+Resize.m */,
+				860983331CB13CAA00D35DA5 /* UIImage+RoundedCorner.h */,
+				860983341CB13CAA00D35DA5 /* UIImage+RoundedCorner.m */,
+			);
+			name = "UIImage Categories";
+			path = ../../../../Downloads/GooglyPuff_Start_1/GooglyPuff;
+			sourceTree = "<group>";
+		};
+		8609834A1CB13CB900D35DA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				860983451CB13CB900D35DA5 /* ELCAlbumPickerController.xib */,
+				860983461CB13CB900D35DA5 /* ELCAssetPicker.xib */,
+				860983471CB13CB900D35DA5 /* ELCAssetTablePicker.xib */,
+				860983481CB13CB900D35DA5 /* Overlay.png */,
+				860983491CB13CB900D35DA5 /* Overlay@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8609834B1CB13CB900D35DA5 /* ELCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				860983391CB13CB900D35DA5 /* ELCAlbumPickerController.h */,
+				8609833A1CB13CB900D35DA5 /* ELCAlbumPickerController.m */,
+				8609833B1CB13CB900D35DA5 /* ELCAsset.h */,
+				8609833C1CB13CB900D35DA5 /* ELCAsset.m */,
+				8609833D1CB13CB900D35DA5 /* ELCAssetCell.h */,
+				8609833E1CB13CB900D35DA5 /* ELCAssetCell.m */,
+				8609833F1CB13CB900D35DA5 /* ELCAssetPickerFilterDelegate.h */,
+				860983401CB13CB900D35DA5 /* ELCAssetSelectionDelegate.h */,
+				860983411CB13CB900D35DA5 /* ELCAssetTablePicker.h */,
+				860983421CB13CB900D35DA5 /* ELCAssetTablePicker.m */,
+				860983431CB13CB900D35DA5 /* ELCImagePickerController.h */,
+				860983441CB13CB900D35DA5 /* ELCImagePickerController.m */,
+				8609834A1CB13CB900D35DA5 /* Resources */,
+			);
+			name = ELCImagePicker;
+			path = ../../../../Downloads/GooglyPuff_Start_1/GooglyPuff/ELCImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +384,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860983521CB13CB900D35DA5 /* ELCAssetPicker.xib in Resources */,
+				860983511CB13CB900D35DA5 /* ELCAlbumPickerController.xib in Resources */,
 				860982EF1CB13B0700D35DA5 /* LaunchScreen.storyboard in Resources */,
+				8609832A1CB13C6B00D35DA5 /* background.png in Resources */,
+				8609832D1CB13C6B00D35DA5 /* background~ipad.png in Resources */,
+				860983551CB13CB900D35DA5 /* Overlay@2x.png in Resources */,
+				860983281CB13C6B00D35DA5 /* photoDownloadError.png in Resources */,
+				860983531CB13CB900D35DA5 /* ELCAssetTablePicker.xib in Resources */,
+				8609832B1CB13C6B00D35DA5 /* background@2x.png in Resources */,
 				860982EC1CB13B0700D35DA5 /* Assets.xcassets in Resources */,
 				860982EA1CB13B0700D35DA5 /* Main.storyboard in Resources */,
+				860983541CB13CB900D35DA5 /* Overlay.png in Resources */,
+				860983291CB13C6B00D35DA5 /* photoDownloading.png in Resources */,
+				8609832C1CB13C6B00D35DA5 /* background@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +422,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				860982E71CB13B0700D35DA5 /* ViewController.m in Sources */,
+				8609834C1CB13CB900D35DA5 /* ELCAlbumPickerController.m in Sources */,
+				8609834D1CB13CB900D35DA5 /* ELCAsset.m in Sources */,
+				860983501CB13CB900D35DA5 /* ELCImagePickerController.m in Sources */,
 				860982E41CB13B0700D35DA5 /* AppDelegate.m in Sources */,
+				860983181CB13BA400D35DA5 /* PhotoManager.m in Sources */,
+				8609834F1CB13CB900D35DA5 /* ELCAssetTablePicker.m in Sources */,
+				8609831E1CB13BCA00D35DA5 /* PhotoCollectionViewController.m in Sources */,
+				860983191CB13BA400D35DA5 /* Photo.m in Sources */,
+				860983361CB13CAA00D35DA5 /* UIImage+Alpha.m in Sources */,
+				860983371CB13CAA00D35DA5 /* UIImage+Resize.m in Sources */,
+				8609834E1CB13CB900D35DA5 /* ELCAssetCell.m in Sources */,
+				860983381CB13CAA00D35DA5 /* UIImage+RoundedCorner.m in Sources */,
 				860982E11CB13B0700D35DA5 /* main.m in Sources */,
+				8609832E1CB13C6B00D35DA5 /* Utils.m in Sources */,
+				8609831F1CB13BCA00D35DA5 /* PhotoDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/ycpjobs/Documents/Swift/GooglyPuff/GooglyPuff/GooglyPuff-Prefix.pch";
 				INFOPLIST_FILE = GooglyPuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jobsycp.GooglyPuff;
@@ -424,6 +589,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/ycpjobs/Documents/Swift/GooglyPuff/GooglyPuff/GooglyPuff-Prefix.pch";
 				INFOPLIST_FILE = GooglyPuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jobsycp.GooglyPuff;
