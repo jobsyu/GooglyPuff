@@ -18,10 +18,11 @@
 + (instancetype)sharedManager
 {
     static PhotoManager *sharedPhotoManager = nil;
-    if (!sharedPhotoManager) {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
         sharedPhotoManager = [[PhotoManager alloc] init];
         sharedPhotoManager->_photosArray = [NSMutableArray array];
-    }
+    });
 
     return sharedPhotoManager;
 }
