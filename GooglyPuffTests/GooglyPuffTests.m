@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Photo.h"
+#import <Foundation/Foundation.h>
 
 @interface GooglyPuffTests : XCTestCase
 
@@ -17,6 +19,7 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    
 }
 
 - (void)tearDown {
@@ -36,4 +39,23 @@
     }];
 }
 
+
+-(void)downloadImageURLWithString:(NSString *)URLString
+{
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
+    
+    NSURL *url = [NSURL URLWithString:URLString];
+    __unused Photo *photo = [[Photo alloc] initwithURL:url withCompletionBlock:^(UIImage *image, NSError *error) {
+        if (error) {
+            XCTFail(@"%@ failed. %@", URLString, error);
+        }
+        
+        dispatch_semaphore_signal(semaphore);
+    }];
+    
+    dispatch_time_t timeoutTime = dispatch_time(DISPATCH_TIME_NOW, 1);
+    if (dispatch_semaphore_wait(semaphore, timeoutTime)) {
+        XCTFail(@"%@ timed out", URLString);
+    }
+}
 @end
